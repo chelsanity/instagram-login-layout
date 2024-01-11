@@ -1,0 +1,93 @@
+.formOuterContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10wh;
+}
+
+.form {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.fieldSet {
+    border: none;
+    padding: 30px;
+    border: 1px solid var(--light-gray);
+    max-width: 300px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.firstname {
+    width: 50%;
+    display: inline-block;
+}
+
+.email {
+    width: 100%;
+    display: inline-block;
+}
+
+.firstNameInput {
+    width: 100%;
+    padding: 10px 10px;
+    border: 0;
+    border: 1px solid var(--light-gray);
+    background-color: rgb(250, 250, 250);
+    box-sizing: border-box;
+    margin-top: 25px;
+    border-radius: 5px;
+
+}
+
+.firstNameInput:focus {
+    outline: none;
+}
+
+.emailInput:focus {
+    outline: none;
+}
+
+.passwordInput {
+    width: 100%;
+    padding: 10px 10px;
+    border: 0;
+    border: 1px solid var(--light-gray);
+    background-color: rgb(250, 250, 250);
+    box-sizing: border-box;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.fieldSet > legend {
+    box-sizing: border-box;
+    float: right;
+    margin-right: 60px;
+}
+
+.buttonClass {
+    display: flex;
+    border: 0; 
+    border: none; 
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    background-color: rgb(0, 149, 246);
+    padding: 9px, 10px;
+    border-radius: 10px;
+    justify-content: center;
+}
