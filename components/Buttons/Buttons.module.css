@@ -1,0 +1,16 @@
+.buttonClass {
+    display: flex;
+    border: 0; 
+    border: none; 
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    height: 35px;
+    background-color: rgb(85, 171, 241);
+    padding: 9px, 10px;
+    border-radius: 10px;
+    justify-content: center;
+}

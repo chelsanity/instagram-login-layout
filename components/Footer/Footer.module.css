@@ -1,0 +1,29 @@
+.footerComponents {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.footerList {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: auto;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: var(--footerColor);
+}
+
+.footerPartTwo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: auto;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: var(--footerColor);
+    
+}

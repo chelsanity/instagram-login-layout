@@ -20,74 +20,101 @@
 
 .fieldSet {
     border: none;
-    padding: 30px;
+    padding: 20px;
     border: 1px solid var(--light-gray);
     max-width: 300px;
-    height: 350px;
+    height: 340px;
     margin: 0 auto;
     margin-top: 20px;
-}
-
-.firstname {
-    width: 50%;
-    display: inline-block;
-}
-
-.email {
-    width: 100%;
-    display: inline-block;
-}
-
-.firstNameInput {
-    width: 100%;
-    padding: 10px 10px;
-    border: 0;
-    border: 1px solid var(--light-gray);
-    background-color: rgb(250, 250, 250);
-    box-sizing: border-box;
-    margin-top: 25px;
-    border-radius: 5px;
-
-}
-
-.firstNameInput:focus {
-    outline: none;
-}
-
-.emailInput:focus {
-    outline: none;
-}
-
-.passwordInput {
-    width: 100%;
-    padding: 10px 10px;
-    border: 0;
-    border: 1px solid var(--light-gray);
-    background-color: rgb(250, 250, 250);
-    box-sizing: border-box;
-    margin-top: 5px;
-    border-radius: 5px;
 }
 
 .fieldSet > legend{
     box-sizing: border-box;
     float: right;
-    margin-right: 60px;
+    margin-right: 78px;
+    padding: 15px 0 15px;
 }
 
-.buttonClass {
-    display: flex;
-    border: 0; 
-    border: none; 
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10px;
-    width: 100%;
-    color: white;
+.orLine {
+    color: var(--textOr);
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
     font-weight: bold;
-    height: 30px;
-    background-color: rgb(0, 149, 246);
-    padding: 9px, 10px;
-    border-radius: 10px;
+
+}
+
+.line {
+    display: flex;
+    margin-top: 15px;
+}
+
+.facebookIcon {
+    display: flex;
+    width: 18px;
+    height: 18px;
+    border-radius: 2px;
+    margin-right: 8px;
+}
+
+.loginFacebook {
+    display: flex;
     justify-content: center;
+    cursor: pointer;
+    font-size: medium;
+    margin-top: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: small;
+    color: var(--facebook);
+}
+
+.forgotPassword {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-top: 20px;
+    color: var(--facebook);
+}
+
+.signUpBox { 
+    display: flex;
+    border: none;
+    padding: 20px;
+    border: 1px solid var(--light-gray);
+    max-width: 300px;
+    width: 300px;
+    height: 20px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.account {
+    margin: auto;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.signUp {
+    margin: auto;
+    color: var(--signUpBlue);
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.getApp { 
+    margin: auto;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.appLogo {
+    margin: auto;
+    margin-top: 15px;
+    width: 300px;
 }
