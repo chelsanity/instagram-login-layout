@@ -14,6 +14,7 @@ export default function Footer() {
                 <p>Privacy</p>
                 <p>Terms</p>
                 <p>Locations</p>
+                <p>Instagram Lite</p>
                 <p>Threads</p>
                 <p>Contact Uploading & Non-Users</p>
                 <p>Meta Verified</p>
